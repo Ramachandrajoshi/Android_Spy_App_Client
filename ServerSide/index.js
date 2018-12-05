@@ -3,8 +3,8 @@ var socket = require('socket.io');
 
 var app = express();    //App Setup
 app.use(express.static(__dirname + '/../SClientSide/Dashboard')); //Static Files
-var server = app.listen(3000, function () {
-    console.log('Listening to port 3000');
+var server = app.listen(6000, function () {
+    console.log('Listening to port 6000');
 });
 
 
